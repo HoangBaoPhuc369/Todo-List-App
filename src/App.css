@@ -131,3 +131,21 @@ select {
   cursor: pointer;
   pointer-events: none;
 }
+
+@media (max-width: 739px) {
+  header h1 {
+    font-size: 2.2rem;
+    margin-top: auto;
+  }
+
+  .select .filter-todo {
+    width: 3rem;
+  }
+
+  form input {
+    width: 65%;
+    margin-left: auto;
+  }
+
+
+}
